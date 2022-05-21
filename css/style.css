@@ -2168,6 +2168,8 @@ input.header-search-input:-ms-input-placeholder {
 .service-item:hover {
     transition: transform .5s ease;
     box-shadow: 0 0 0 0 rgba(40, 40, 40, .08)
+    -webkit-box-shadow: 0 0 0 0 rgba(40, 40, 40, .08)
+    box-shadow: 0 0 0 0 rgba(40, 40, 40, .08)
 }
 
 .service_text {
@@ -3204,6 +3206,8 @@ body {
 .bdp-post-grid-content {
     background: #fff;
     box-shadow: 0 2px 6px 0 rgb(0 0 0 / 20%);
+    -moz-box-shadow:0 2px 6px 0 rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0 2px 6px 0 rgb(0 0 0 / 20%);
     padding: 10px;
     min-height: 500px
 }
@@ -4201,6 +4205,8 @@ header.blog-banner .col-sm-12 {
     border-radius: 5px;
     padding: 61px 60px 70px;
     box-shadow: 0 5px 83px 0 rgba(40, 40, 40, .08);
+    -moz-box-shadow: 0 5px 83px 0 rgba(40, 40, 40, .08);
+    -webkit-box-shadow: 0 5px 83px 0 rgba(40, 40, 40, .08);
     max-width: 630px;
     margin: auto
 }
@@ -4835,6 +4841,8 @@ header.blog-banner .col-sm-12 {
 
 .feature_pric .pricing-box {
     box-shadow: 0 0 23px rgba(24, 35, 51, .08);
+    -moz-box-shadow: 0 0 23px rgba(24, 35, 51, .08);
+      -webkit-box-shadow: 0 0 23px rgba(24, 35, 51, .08);
     background: #fff
 }
 
@@ -4916,10 +4924,13 @@ header.blog-banner .col-sm-12 {
 }
 
 .pricing-box:hover {
-    box-shadow: 0 0 23px rgba(24, 35, 51, .08)
+    box-shadow: 0 0 23px rgba(24, 35, 51, .08);
+    -moz-box-shadow: 0 0 23px rgba(24, 35, 51, .08)
+    -webkit-box-shadow: 0 0 23px rgba(24, 35, 51, .08)
 }
 
 .single_service {
+
     padding: 100px 0
 }
 
@@ -5219,6 +5230,8 @@ header.blog-banner .col-sm-12 {
     background: #fff;
     font-size: 40px;
     box-shadow: 0 0 20px rgba(51, 51, 51, .1);
+    -moz-box-shadow: 0 0 20px rgba(51, 51, 51, .1);
+    -webkit-box-shadow: 0 0 20px rgba(51, 51, 51, .1);
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -5233,6 +5246,8 @@ header.blog-banner .col-sm-12 {
     color: #fff;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(51, 51, 51, .1);
+    -moz-box-shadow: 0 0 20px rgba(51, 51, 51, .1);
+    -webkit-box-shadow: 0 0 20px rgba(51, 51, 51, .1);
     width: 30px;
     line-height: 30px;
     text-align: center;
@@ -5812,6 +5827,8 @@ header.blog-banner .col-sm-12 {
 .blog-contact #contact-form {
     padding: 40px 40px;
     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .09);
+    -moz-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .09);
+    -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .09);
     background: #fff
 }
 
@@ -6286,6 +6303,9 @@ ul {
   .box_counter{
     text-align: center;
     box-shadow: 0px 0px 10px #ccc;
+    -moz-box-shadow: 0px 0px 10px #ccc;
+    -webkit-box-shadow: 0px 0px 10px #ccc;
+    -o-box-shadow: 0px 0px 10px #ccc;
     margin: 20px 0;
     padding: 10px 0;
   }
