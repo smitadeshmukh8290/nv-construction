@@ -756,7 +756,7 @@ section {
 }
 
 .navigation {
-    background-color: #033;
+    background-color: #262c33;;
     z-index: 999;
     position: relative;
     border-top: 1px solid #641916;
@@ -6284,7 +6284,10 @@ ul {
     color:#fff !important;
   }
   .box_counter{
-      text-align: center;
+    text-align: center;
+    box-shadow: 0px 0px 10px #ccc;
+    margin: 20px 0;
+    padding: 10px 0;
   }
   .box_counter h1,.box_counter h4{
       color:#fff;
