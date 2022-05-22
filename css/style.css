@@ -2034,7 +2034,7 @@ input.header-search-input:-ms-input-placeholder {
 .promo_section2 {
   
     margin: 3rem 0;
-    background: #033;
+    background: #171919;
 
 }
 .promo_section2 img:hover, .mobile_icon i:hover{
@@ -2046,8 +2046,11 @@ input.header-search-input:-ms-input-placeholder {
   animation-timing-function: linear;  
   display: inline-block;
   animation:  5s linear infinite;
-  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation: rotateIn; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
+  -moz-box-shadow: 0px 0px 10px #ccc;
+  -webkit-box-shadow: 0px 0px 10px #ccc;
+  box-shadow: 0px 0px 10px #ccc;
 }
 
 .text_promo h2 {
@@ -6351,6 +6354,13 @@ ul {
     .single_slider{
          height: 200px; 
     }
+    .promo_section2 h4{
+        font-size: 18px;
+        margin-top: 18px;
+    }
+    .top_margin{
+        margin-top: 1rem;
+    }
 }
 
 @media (max-width:991px) {
@@ -6361,5 +6371,12 @@ ul {
     }
     .for_d_none{
         display: none;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .header_cart{margin-left: -2px !important;}
+    
+    #navigation > ul > li a:hover::after{
+        width:0px !important;
     }
 }
