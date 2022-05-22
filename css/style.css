@@ -2,9 +2,8 @@
 * {
     margin: 0px;
     padding: 0px;
-    overflow-x:hidden;
     box-sizing: border-box;
-  } 
+    } 
 
 body {
     background: #fff;
@@ -6363,7 +6362,6 @@ ul {
     .top_margin{
         margin-top: 1rem;
     }
-    .menu_sidebar_info {overflow-x: hidden;}
 }
 
 @media (max-width:991px) {
