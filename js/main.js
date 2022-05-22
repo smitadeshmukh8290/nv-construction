@@ -239,3 +239,5 @@
         e(window).scrollTop() >= 500 ? e(".scrollup").slideDown(450) : e(".scrollup").slideUp(450)
     })
 }(jQuery);
+
+AOS.init();
