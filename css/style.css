@@ -2037,7 +2037,7 @@ input.header-search-input:-ms-input-placeholder {
     background: #171919;
 
 }
-.promo_section2 img:hover, .mobile_icon i:hover{
+.promo_section2 .img_hover:hover img, .promo_section2 .img_hover:hover .mobile_icon i{
 
     animation-timing-function: ease-in-out;
     -webkit-animation-timing-function: ease-in-out;
